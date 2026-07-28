@@ -1,0 +1,18 @@
+{
+  "type": "micro",
+  "wake_word": "hey luigi",
+  "author": "David Kohler",
+  "website": "https://github.com/dakonu/MicroWakeWords",
+  "model": "hey_luigi.tflite",
+  "trained_languages": [
+    "en"
+  ],
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10,
+    "feature_step_size": 30,
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
